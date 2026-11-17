@@ -1,14 +1,17 @@
 # Learning Adventure content
 
 Public educational content for the parent-supervised Learning Adventure preview,
-grades 3-5: math, science, social studies and English. App source remains in the
+Pre-K, Kindergarten and grades 1-12: math, science, social studies and English
+through grade 10; math, physics, chemistry, biology and English in grades 11-12.
+App source remains in the
 owner's separate private repository. This repository contains no child accounts,
 learning progress, private signing keys or application source.
 
-The initial version 2 library contains 162 draft lessons and 3,324 bank questions:
-84 unchanged authored pilot questions, 2,430 structured tasks from 810 original
-cases, and 810 generated math items. Each grade has 282 math, 276 science, 276
-social-studies and 274 English questions.
+The version 3 library contains 438 draft lessons and 8,280 bank questions:
+84 unchanged authored pilot questions, 6,210 structured tasks and 1,986 generated
+math items. Every new grade/subject combination has six topics and 102-108
+questions; original grades 3-5 content is preserved. Structured and numerical
+variants are not 8,280 independent teaching concepts.
 
 ## Download in the app
 
@@ -16,7 +19,10 @@ App build 2 and later support **Parent corner > Signed lesson updates > Check an
 download new lessons**. Compatible content can be updated without reinstalling the
 APK or Windows app. Downloaded lessons work offline.
 
-Releases contain a signed manifest and twelve grade/subject packs. The app verifies
+Expanded content requires app build 3 or later. The older version 2 content
+remains available for app build 2 and its grades 3-5 library.
+
+Expanded releases contain a signed manifest and 58 grade/subject packs. The app verifies
 the signature against its pinned public key, then checks pack hashes, sizes and
 schema before saving the whole library. A signature identifies the publisher;
 it does not certify educational correctness. The app can restore bundled lessons
@@ -28,9 +34,11 @@ automatically and does not generate online AI answers for children.
 
 ## Draft content and privacy
 
-All concepts, examples, FAQ, questions and suggested Foundations/US/India pathway
+All concepts, examples, FAQ, questions and suggested curriculum pathway
 mappings await educator review. The pathways are topic groupings, not complete or
-certified curricula. Structured and numerical practice variants are labeled as
+certified curricula. ICSE/ISC and state-board filters currently select shared
+foundations; individual state syllabi and US state standards have not been mapped.
+Structured and numerical practice variants are labeled as
 generated, not counted as independently authored lessons.
 
 The app contacts GitHub for content only after a parent presses the download
