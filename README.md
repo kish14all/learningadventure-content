@@ -5,6 +5,11 @@ grades 3-5: math, science, social studies and English. App source remains in the
 owner's separate private repository. This repository contains no child accounts,
 learning progress, private signing keys or application source.
 
+The initial version 2 library contains 162 draft lessons and 3,324 bank questions:
+84 unchanged authored pilot questions, 2,430 structured tasks from 810 original
+cases, and 810 generated math items. Each grade has 282 math, 276 science, 276
+social-studies and 274 English questions.
+
 ## Download in the app
 
 App build 2 and later support **Parent corner > Signed lesson updates > Check and
